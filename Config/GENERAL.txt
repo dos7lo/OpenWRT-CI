@@ -53,11 +53,16 @@ CONFIG_PACKAGE_kmod-inet-diag=y
 CONFIG_PACKAGE_kmod-netlink-diag=y
 CONFIG_PACKAGE_kmod-sound-core=y
 CONFIG_PACKAGE_kmod-usb-audio=y
+#KMOD调整
+CONFIG_PACKAGE_kmod-ipt-nat-extra=y
+CONFIG_PACKAGE_ipt-nat=y
+CONFIG_PACKAGE_ipt-nat6=y
 #组件调整
 CONFIG_PACKAGE_autocore=y
 CONFIG_PACKAGE_automount=y
 CONFIG_PACKAGE_bash=y
 CONFIG_PACKAGE_blkid=y
+CONFIG_PACKAGE_ca-certificates=y
 CONFIG_PACKAGE_cfdisk=y
 CONFIG_PACKAGE_cgdisk=y
 CONFIG_PACKAGE_coremark=y
@@ -68,6 +73,7 @@ CONFIG_PACKAGE_htop=y
 CONFIG_PACKAGE_ip-full=y
 CONFIG_PACKAGE_iperf3=y
 CONFIG_PACKAGE_ipset=y
+CONFIG_PACKAGE_ipt2socks=y
 CONFIG_PACKAGE_iptables-mod-conntrack-extra=y
 CONFIG_PACKAGE_iptables-mod-iprange=y
 CONFIG_PACKAGE_iptables-mod-socket=y
