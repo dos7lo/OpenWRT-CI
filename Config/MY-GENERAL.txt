@@ -121,21 +121,16 @@ CONFIG_PACKAGE_usbutils=y
 CONFIG_PACKAGE_xz-utils=y
 
 # ==========================================
-# �ڶ����֣��ҵ��Զ��帲������ (��Զ������ײ�)
+# 第二部分：我的自定义覆盖配置 (永远放在最底部)
 # ==========================================
 CONFIG_PACKAGE_luci-app-wol=n
 CONFIG_PACKAGE_luci-app-attendedsysupgrade=n
 CONFIG_PACKAGE_luci-app-gecoosac=n
-CONFIG_PACKAGE_luci-app-mini-diskmanager=n
 CONFIG_PACKAGE_luci-app-partexp=n
-CONFIG_PACKAGE_luci-app-upnp=n
-CONFIG_PACKAGE_luci-app-wolplus=n
 CONFIG_PACKAGE_kmod-ata-ahci=n
 CONFIG_PACKAGE_kmod-ata-core=n
 CONFIG_PACKAGE_kmod-fs-ksmbd=n
-CONFIG_PACKAGE_kmod-nf-nat6=n
 CONFIG_PACKAGE_kmod-nvme=n
-CONFIG_PACKAGE_exfat-fsck=n
 CONFIG_PACKAGE_exfat-mkfs=n
 CONFIG_PACKAGE_libnvme=n
 CONFIG_PACKAGE_nvme-cli=n
